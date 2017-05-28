@@ -43,7 +43,7 @@ def bot73(x,y):#robot protocols
     return 0
 def bot74(x,y):#robot protocols
     return 0
-#test
+#test(can be ignored if not necessary)
 def overall():
     url.urlopen("http://192.168.43.70/LED=ON")
     t.sleep(0.9)
@@ -81,6 +81,7 @@ def overall():
     url.urlopen("http://192.168.43.70/LED2=ON")
     t.sleep(0.8)
     url.urlopen("http://192.168.43.70/LED=OFF")
+#get image from cam    
 def get_image():
     #_,img=cap.read()
     img=cv2.imread("img1.jpg")
@@ -90,6 +91,7 @@ def get_image():
     else:
         print "camera cannot be accessed"
         return None
+#skeletal structures    
 def line_skeleton(z=z):
     #for making line skeleton in any given x and y
     for i in range(bots):
@@ -136,6 +138,7 @@ def rectangular_wave(space=s_lim,li=line):
         v=v+1
     [plt.scatter(o[0], o[1], c='c', s=100, marker='x') for o in wave_skeleton]
     return wave_skeleton
+#application of NN algorithm to reduce time and save power. K=1.
 def nearest_neighbours(skeleton,temp):
     posi=[]
     #find euclidian distance  eu_dist=sqrt((x1-y1)*2-(x2-y2)*2)
@@ -196,7 +199,7 @@ if __name__=="__main__":
                     clr_id[key] = [s, a, d[0], d[3]]
         return clr_id
 
-
+    #calculate angle for each bot to target point
     def finding_angles(line, points):
         for i, j in zip(line, points):
             hyp = (np.linalg.norm(np.array(i) - np.array(j)))
