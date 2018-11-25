@@ -1,5 +1,5 @@
 # Self-organizing-bots
-A group of small robots assembling using ESP8266 wifi module and Python Algorithms.
+A group of small robots capable of assembling themselves built using ESP8266 wifi module and Python.
 
 <p align="center">
 <img src="Img/IMG_1442.JPG" alt="KILLER" width="400">
