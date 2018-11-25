@@ -47,17 +47,6 @@ The above 3D models has been printed with the help of a 3D printer, the printed 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 Electrical Circuit 
 
 
@@ -136,19 +125,7 @@ The same algorithm is applied for the S-structure formation. The distance is gre
 Real time tracking and application of the nearest neighbor algorithm has been shown this image. The blue lines represent the paths that should be traced down by the robot to attain the optimum point for forming the line structure.
 
 
-
-
 Feeding data to the Robots:
-
-
-
-
-
-
-
-
-
-
 
 The robot should be fed with the data of distance and angle for each specific for the structure formation. So, to calculate distance and angle the following method is used
 To find the distance, hypotenuse is found to the triangle formed while adjacent is the median for the whole plane. The angle that to be tilted is found by using the formula,
@@ -163,6 +140,12 @@ Firstly, the small size of the client robot helps us to carry the robots conveni
 Using the concept of ’Collective intelligence’ reduces the cost and  increases the expandability of the robots. A particular robot can be replaced in case of damages instead of  replacing the whole.
 In future, size can be extremely reduced and the same algorithm can be implemented irrespective of  their platform. It has vast scopes in various fields such as Medicine, Defence etc.
 
+A continuation:
+USING ARUCO MARKERS.
+EASY TO DETERMNINE AND LOCALIZE THE ROBOTS THAN BEFORE. 
+DONT HAVE TO TAKE CARE OF ANYTHING AT ALL
+
+ 
 REFERENCES
 •  BASE PAPER DETAILS
 1.Kilobot: A Low Cost Scalable Robot System for Collective Behaviors Michael Rubenstein, Christian Ahler, Radhika Nagpal IEEE Intl. Conf on Robotics and Automation (ICRA), 2012.
