@@ -1,6 +1,15 @@
 # Self-organizing-bots
 A group of small robots capable of assembling themselves built using ESP8266 wifi module and Python.
 
+The project can be divided into two different sections,
+* Hardware
+* Software
+
+# Hardware:
+
+## Componentts:
+
+
 <p align="center">
 <img src="Img/IMG_1442.JPG" alt="KILLER" width="400">
 </p
@@ -14,7 +23,7 @@ Just have to change the Interface and Tracking methods for any kind of robotic s
 <img src="Img/IMG_1883.JPG" alt="Swarm" width="300">
 </p
 
-Software Architecture:
+# Software:
 
 
 <p align="center">
