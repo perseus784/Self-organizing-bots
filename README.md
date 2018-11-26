@@ -1,3 +1,16 @@
+link:
+[this guy](https://hackaday.io/project/12211-arduino-glasses-a-hmd-for-multimeter).
+images
+<p align="center">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/june_glasses.png" width="800" height="400">
+</p>
+
+<p align="left">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/planning(1).jpg" width="430" height="300">
+<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/planning(2).jpg" width="430" height="300">
+</p>
+
+
 # About
 A group of small robots capable of assembling themselves built using ESP8266 wifi module and Python.
 The platform consists of a collection of custom-designed wheeled robots each 41x35 mm in dimensions, a Wi-Fi module, and object tracking using image processing techniques. They are controlled by custom written algorithms and python libraries. We illustrate the potential of group interface through a set of algorithms implemented with custom designed robots, and discuss general design considerations unique to collective intelligence.
@@ -20,7 +33,7 @@ The project included study of various fields in Electronics and Computer Science
 
 The greatest difficulty faced in the whole system is to make the size of each robot as small as possible. It required building custom designs for the robots and rapid prototyping is employed for the modifications based on practical implementations.
 
-## Hardware Requirements
+## Hardware
 
 ### Battery
 
@@ -28,7 +41,7 @@ A  Rechargeable Lithium-Polymer battery cell is used to power the entire robot. 
 
 ### Coreless DC motor
 
-Two coreless DC motors are being employed since it is a two wheeled robot. This two wheeled construction of the robot gives it a 3-degree locomotion i.e. it can move in forward, right and left directions. The motor’s specifications are 3.3v and 0.1A. The motor is specifically selected for its high speed acceleration and smaller size. It is of size 16*7mm in dimensions. 
+Two coreless DC motors are being employed since it is a two wheeled robot. This two wheeled construction of the robot gives it a 3-degree locomotion i.e. it can move in forward, right and left directions. The motor’s specifications are 3.3v and 0.1A. The motor is specifically selected for its high acceleration and smaller size. It is of size 16*7mm in dimensions. 
 
 ### ESP8266 Wi-Fi Controller
 
@@ -106,7 +119,9 @@ Robots are tracked with the help of a python library named openCV. It is highly 
 The image contains a color detection sample for 5 different colors simultaneously and also using image processing the centers of the each color contours are also found. This gives a great way of robot tracking even in very ruff conditions.
 
 ## Architecture:
- 
+ <p align="center">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Software_Architecture.png">
+</p>
 
 
 
