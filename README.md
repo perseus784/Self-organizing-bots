@@ -2,32 +2,38 @@ link:
 [this guy](https://hackaday.io/project/12211-arduino-glasses-a-hmd-for-multimeter).
 images
 <p align="center">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/june_glasses.png" width="800" height="400">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1442.JPG" width="800" height="400">
 </p>
 
 <p align="left">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/planning(1).jpg" width="430" height="300">
-<img src="https://github.com/perseus784/June_Glasses/blob/master/media_files/planning(2).jpg" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2430.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1434.JPG" width="430" height="300">
 </p>
 
+<p align="center">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/reach_destination.gif">
+</p>
 
 # About
 A group of small robots capable of assembling themselves built using ESP8266 wifi module and Python.
-The platform consists of a collection of custom-designed wheeled robots each 41x35 mm in dimensions, a Wi-Fi module, and object tracking using image processing techniques. They are controlled by custom written algorithms and python libraries. We illustrate the potential of group interface through a set of algorithms implemented with custom designed robots, and discuss general design considerations unique to collective intelligence.
-The aim of our project is to make a group of robots which will construct an input schematic given by the user on a given platform.
+The platform consists of a collection of custom-designed wheeled robots each 41x35 mm in dimensions, a Wi-Fi module, and object tracking using image processing techniques. They are controlled by custom written algorithms and python libraries. The project illustrates the potential of group interface through a set of algorithms implemented with custom designed robots, and discuss general design considerations unique to collective intelligence.
 
-# Features:
-
+# Key Features:
+* 41x35 mm in dimensions.
+* Controlled using WiFi.
+* Cheap (around $25). Maybe even cheaper if mass produced.
+* 3D files provided.
 
 ## EXISTING SYSTEM:  
-Zooids: The project is executed by students of Stanford University. The system introduced swarm user interfaces; It is an open-source open-hardware platform for developing tabletop swarm interfaces. It consists of a collection of custom-designed wheeled micro robots each 2.6 cm in diameter, a radio base-station, a high speed DLP structured light projector for optical tracking, and a software framework for application development and control.
+**Zooids:** The project is executed by students of Stanford University. The system introduced swarm user interfaces; It is an open-source open-hardware platform for developing tabletop swarm interfaces. It consists of a collection of custom-designed wheeled micro robots each 2.6 cm in diameter, a radio base-station, a high speed DLP structured light projector for optical tracking, and a software framework for application development and control.
 
-Kilobots: Kilobots are done by students of Harvard University. Kilobots should be operated on a smooth, flat surface to ensure proper robot mobility. To aid communication, the surface should be glossy or reflective. The robots beneath the overhead controller in a about a one meter diameter region will be able to receive messages.
+**Kilobots:** Kilobots are done by students of Harvard University. Kilobots should be operated on a smooth, flat surface to ensure proper robot mobility. To aid communication, the surface should be glossy or reflective. The robots beneath the overhead controller in a about a one meter diameter region will be able to receive messages.
 
 ## PROPOSED SYSTEM:
 
-On basis of the above survey and after referring various technical papers a new and innovative project idea was developed. The aim of the project ’Self organized robots’ was to build a group of robots which would construct an input schematic given by the user on a given platform.
-The project included study of various fields in Electronics and Computer Science such as Artificial Intelligence, Collective Intelligence, Embedded Systems, Wireless Sensor Networks and Computer Networks. It included Wireless communication between the robots. It consisted of a group or swarm of robots which were guided by a server using various algorithms programmed in its micro-controller. The robot tracking is done by using image processing technique.
+On basis of the above survey and after referring various technical papers a new and innovative project idea was developed. The aim of the project "Self organized robots" was to build a group of robots which would construct an input schematic given by the user on a given platform.
+
+The project included study of various fields in Electronics and Computer Science such as Machine Learning, Collective Intelligence, Embedded Systems, Wireless Sensor Networks and Computer Networks. It included Wireless communication between the robots. It consisted of a group or swarm of robots which were guided by a server using various algorithms programmed in its micro-controller. The robot tracking is done by using image processing technique.
 
 ## TOOLS
 
@@ -104,6 +110,11 @@ The above 3D models has been printed with the help of a 3D printer, the printed 
 
 
 # WORKING
+
+The project is tself can be divided to three main parts.
+* Tracking
+* Communication
+* Algorithms
 
 ## Robot Position Tracking:
 
