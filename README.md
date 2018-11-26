@@ -6,7 +6,7 @@ images
 </p>
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2430.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1434.JPG" width="430" height="300">
 </p>
 
