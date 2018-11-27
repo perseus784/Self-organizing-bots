@@ -255,6 +255,11 @@ In this picture, the green lines indicate the path traced by the robots for the 
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin2.png" width="430" height="300">
 </p>
 
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/figure_2.png" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/figure_21.png" width="430" height="300">
+
+</p>
 
 The same algorithm is applied for the S-structure formation. The distance is greatly reduced in both the cases. 
 Real time tracking and application of the nearest neighbor algorithm has been shown this image. The blue lines represent the paths that should be traced down by the robot to attain the optimum point for forming the line structure.
