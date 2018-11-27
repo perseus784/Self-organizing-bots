@@ -95,9 +95,9 @@ SolidWorks is a solid modeler, and utilizes a parametric feature-based approach 
 The 3D model based on the spatial requirements which has been done using the SolidWorks software is displayed below,
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled3.jpg" width="430" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled1.jpg" width="430" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled2.jpg" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled3.png" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled1.png" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled2.png" width="430" height="300">
 
 </p>
 
@@ -210,7 +210,7 @@ The Red Cross indicates the target skeleton points which are generated from the 
 
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin1.jpg" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin1.png" width="430" height="300">
 </p>
 
 
@@ -220,7 +220,7 @@ The green cross indicates the target skeleton points which are generated from th
 
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/sform.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/sform.png" width="430" height="300">
 </p>
 
 ## Path Planning:
@@ -234,10 +234,10 @@ Initially, the bot points are allocated to random points in the skeleton and the
 The path derived without using nearest neighbour algorithm. By observation, it can be seen that the distance travelled by the robots is much longer. So, applying nearest neighbor algorithm the following paths are obtained which are more optimum to the given set of paths.
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed.jpg" width="430" height="300">
-  <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed (1).jpg" width="430" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed (2).jpg" width="430" height="300">
-  <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/triangle.jpg" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed.png" width="430" height="300">
+  <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed (1).png" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed (2).png" width="430" height="300">
+  <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/triangle.png" width="430" height="300">
 
 
 </p>
@@ -252,7 +252,7 @@ In this picture, the green lines indicate the path traced by the robots for the 
 
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin2.jpg" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin2.png" width="430" height="300">
 </p>
 
 
@@ -266,7 +266,7 @@ The robot should be fed with the data of distance and angle for each specific fo
 To find the distance, hypotenuse is found to the triangle formed while adjacent is the median for the whole plane. The angle that to be tilted is found by using the formula,
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/imple.jpg" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/imple.png" width="430" height="300">
 </p>
 
                                                  α = sin-1(opposite/hypotenuse)
