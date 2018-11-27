@@ -52,7 +52,7 @@ The greatest difficulty faced in the whole system is to make the size of each ro
 A  Rechargeable Lithium-Polymer battery cell is used to power the entire robot. It has the technical specifications of 3.7v with 300mAh capacity and 20C discharge rate. This optimum design of battery not only helps in keeping the robotic structure  in less weight and small size but also supplies required power efficiently. A single charge of the battery can run the robot for around 20 minutes of continues usage and 1 hour of idle standby. 
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1426.JPG" width="430" height="300">
 </p>
 
 ### Coreless DC motor
@@ -61,7 +61,7 @@ Two coreless DC motors are being employed since it is a two wheeled robot. This 
 
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1425.JPG" width="430" height="300">
 </p>
 
 ### ESP8266 Wi-Fi Controller
@@ -69,7 +69,7 @@ Two coreless DC motors are being employed since it is a two wheeled robot. This 
 The ESP8266 Wi-Fi Module is a self contained Microcontroller with inbuilt Wi-Fi options. It can establish new networks and also able to connect to already available networks. It has a very compact design with two GPIO pins which makes it the most suitable board for this project. It can be easily programmed by C language Arduino IDE.
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1422.JPG" width="430" height="300">
 </p>
 
 ### BS170 N-Channel MOSFET
@@ -94,6 +94,12 @@ SOLDERING
 SolidWorks is a solid modeler, and utilizes a parametric feature-based approach to create models and assemblies. Building a model in SolidWorks usually starts with a 2D sketch and 3D model can be derived later. The sketch consists of geometry such as points, lines, arcs, and spines. Dimensions are added to the sketch to derive the required 3D model.
 The 3D model based on the spatial requirements which has been done using the SolidWorks software is displayed below,
 
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled3.jpg" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled1.jpg" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled2.jpg" width="430" height="300">
+
+</p>
 
 ### 3D Printing Technology
 
@@ -119,6 +125,7 @@ The above 3D models has been printed with the help of a 3D printer, the printed 
 
 
 <p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/8.JPG" width="430" height="300">
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
 </p>
 
@@ -131,7 +138,9 @@ The above 3D models has been printed with the help of a 3D printer, the printed 
 
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1428.JPG" width="430" height="300">
+ <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1430.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1434.JPG" width="430" height="300">
 </p>
 
 
@@ -142,7 +151,9 @@ The above 3D models has been printed with the help of a 3D printer, the printed 
 
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1438.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1440.JPG" width="430" height="300">
+
 </p>
 
 
@@ -151,7 +162,10 @@ The above 3D models has been printed with the help of a 3D printer, the printed 
                          
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1883.JPG" width="430" height="300">
+ <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1886.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1888.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1889.JPG" width="430" height="300">
 </p>
 
 # WORKING
@@ -163,17 +177,12 @@ The project is tself can be divided to three main parts.
 
 ## Robot Position Tracking:
 
-
-<p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+ <p align="center">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/without.jpg">
 </p>
 
 
-
-
-
-                                     
-
+                                
 Robots are tracked with the help of a python library named openCV. It is highly used in the fields of image processing. Each robot is given a separate color on top of it so, a simple color identification technique is used to find the color tag of the robot. Each color tag represents a unique bot ID from which the Wi-Fi address of the robot can be found.
 The image contains a color detection sample for 5 different colors simultaneously and also using image processing the centers of the each color contours are also found. This gives a great way of robot tracking even in very ruff conditions.
 
@@ -192,9 +201,7 @@ The communication between the robots and the master is via a secure Wi-Fi local 
 
 The algorithms are designed in such a way that it is adaptive to any given area and form the same structure. When the user gives any surface as input the program calculates the skeletal structures and minimal number of robots for that structure. We have implemented two skeletal structures as pre defined default structure, if needed in future it is very trivial to add more and more skeletal structures to the program.
 
-<p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
-</p>
+
 
 ## Line structure
 
@@ -202,10 +209,10 @@ The blue points in the picture indicate the robots which are placed in a random 
 The Red Cross indicates the target skeleton points which are generated from the custom built algorithm for line formation for any given plane.
 
 
-
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin1.jpg" width="430" height="300">
 </p>
+
 
 ## S-structure
 
@@ -213,7 +220,7 @@ The green cross indicates the target skeleton points which are generated from th
 
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/sform.JPG" width="430" height="300">
 </p>
 
 ## Path Planning:
@@ -222,13 +229,18 @@ After acquiring both the current position and destination points, the algorithm 
 Initially, the bot points are allocated to random points in the skeleton and the distance is calculated. This follows no specific format or computation so it’s a quick way but this causes the total distance travelled by the robots to be larger. This practice makes the whole process very time consuming and it wastes a lot of battery power. So, an algorithm is employed to rectify this disadvantage.
 
 
-<p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
-</p>
-
 ## Nearest Neighbours Algorithm:
 
 The path derived without using nearest neighbour algorithm. By observation, it can be seen that the distance travelled by the robots is much longer. So, applying nearest neighbor algorithm the following paths are obtained which are more optimum to the given set of paths.
+
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed.jpg" width="430" height="300">
+  <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed (1).jpg" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed (2).jpg" width="430" height="300">
+  <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/triangle.jpg" width="430" height="300">
+
+
+</p>
 
 The distance is found for all the robots given and the target point is selected for a particular robot by selecting the smallest available Euclidean distance that had been found before. The Euclidean distance can be found by the following formula,
  
@@ -240,18 +252,13 @@ In this picture, the green lines indicate the path traced by the robots for the 
 
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin2.jpg" width="430" height="300">
 </p>
+
 
 The same algorithm is applied for the S-structure formation. The distance is greatly reduced in both the cases. 
 Real time tracking and application of the nearest neighbor algorithm has been shown this image. The blue lines represent the paths that should be traced down by the robot to attain the optimum point for forming the line structure.
 
-## Corner Harris:
-
-
-<p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
-</p>
 
 ## Feeding data to the Robots:
 
@@ -259,10 +266,10 @@ The robot should be fed with the data of distance and angle for each specific fo
 To find the distance, hypotenuse is found to the triangle formed while adjacent is the median for the whole plane. The angle that to be tilted is found by using the formula,
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/imple.jpg" width="430" height="300">
 </p>
 
-α = sin-1(opposite/hypotenuse)
+                                                 α = sin-1(opposite/hypotenuse)
 
 (Distance, α) is appended to a list which contains the same for all other robots. So, the ESP Arduino obtains this distance and angle and facilitates the robot to move in this α direction to that distance.
 
@@ -275,7 +282,13 @@ Firstly, the small size of the client robot helps us to carry the robots conveni
 Using the concept of ’Collective intelligence’ reduces the cost and  increases the expandability of the robots. A particular robot can be replaced in case of damages instead of  replacing the whole.
 In future, size can be extremely reduced and the same algorithm can be implemented irrespective of  their platform. It has vast scopes in various fields such as Medicine, Defence etc.
 
-## A continuation:
+## UPDATES AFTER 6 MONTHS:
+## Corner Harris:
+
+
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+</p>
 
 
 <p align="left">
