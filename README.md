@@ -23,6 +23,12 @@ The platform consists of a collection of custom-designed wheeled robots each 41x
 * Controlled using WiFi.
 * Cheap (around $25). Maybe even cheaper if mass produced.
 * 3D files provided.
+* Contour tracking
+* Path planning
+
+# Update:
+* Aruco Markers
+* High torque motors
 
 ## EXISTING SYSTEM:  
 **Zooids:** The project is executed by students of Stanford University. The system introduced swarm user interfaces; It is an open-source open-hardware platform for developing tabletop swarm interfaces. It consists of a collection of custom-designed wheeled micro robots each 2.6 cm in diameter, a radio base-station, a high speed DLP structured light projector for optical tracking, and a software framework for application development and control.
@@ -43,23 +49,45 @@ The greatest difficulty faced in the whole system is to make the size of each ro
 
 ### Battery
 
-A  Rechargeable Lithium-Polymer battery cell is used to power the entire robot. It has the technical specifications of 3.7v with 300mAh capacity and 20C discharge rate. This optimum design of battery not only helps in keeping the robotic structure  in less weight and small size but also supplies required power efficiently. A single charge of the battery can run the robot for around 20 minutes of continues usage and 1 hour of idle standby.
+A  Rechargeable Lithium-Polymer battery cell is used to power the entire robot. It has the technical specifications of 3.7v with 300mAh capacity and 20C discharge rate. This optimum design of battery not only helps in keeping the robotic structure  in less weight and small size but also supplies required power efficiently. A single charge of the battery can run the robot for around 20 minutes of continues usage and 1 hour of idle standby. 
+
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+</p>
 
 ### Coreless DC motor
 
 Two coreless DC motors are being employed since it is a two wheeled robot. This two wheeled construction of the robot gives it a 3-degree locomotion i.e. it can move in forward, right and left directions. The motor’s specifications are 3.3v and 0.1A. The motor is specifically selected for its high acceleration and smaller size. It is of size 16*7mm in dimensions. 
 
+
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+</p>
+
 ### ESP8266 Wi-Fi Controller
 
 The ESP8266 Wi-Fi Module is a self contained Microcontroller with inbuilt Wi-Fi options. It can establish new networks and also able to connect to already available networks. It has a very compact design with two GPIO pins which makes it the most suitable board for this project. It can be easily programmed by C language Arduino IDE.
+
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+</p>
 
 ### BS170 N-Channel MOSFET
 
 The BS170 is a logic level MOSFET, which is capable of showing qualities of the higher rating MOSFETs in small signal applications. This property of it used to select it for the switching purpose of the motor using the microcontroller. It has a specification of Vds= 60v and Id= 500 mA. 
 
+
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+</p>
+
 solid board
 
 SOLDERING 
+
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+</p>
 
 ### SolidWorks Software
 
@@ -77,6 +105,11 @@ The 3D model based on the spatial requirements which has been done using the Sol
 The circuit is designed mainly on the consideration of simplicity and smallest size possible. So, very basic components are only used in the electrical circuit.
 
 
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+</p>
+
+
 ## IMPLEMENTATION
 
 ### Hardware Implementation
@@ -85,6 +118,9 @@ The above 3D models has been printed with the help of a 3D printer, the printed 
                                                                                                                                       
 
 
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+</p>
 
 
 
@@ -94,6 +130,9 @@ The above 3D models has been printed with the help of a 3D printer, the printed 
 
 
 
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+</p>
 
 
 
@@ -102,12 +141,18 @@ The above 3D models has been printed with the help of a 3D printer, the printed 
 
 
 
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+</p>
 
 
 
 ## Swarm Group:
                          
 
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+</p>
 
 # WORKING
 
@@ -119,6 +164,9 @@ The project is tself can be divided to three main parts.
 ## Robot Position Tracking:
 
 
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+</p>
 
 
 
@@ -144,6 +192,10 @@ The communication between the robots and the master is via a secure Wi-Fi local 
 
 The algorithms are designed in such a way that it is adaptive to any given area and form the same structure. When the user gives any surface as input the program calculates the skeletal structures and minimal number of robots for that structure. We have implemented two skeletal structures as pre defined default structure, if needed in future it is very trivial to add more and more skeletal structures to the program.
 
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+</p>
+
 ## Line structure
 
 The blue points in the picture indicate the robots which are placed in a random manner.
@@ -151,16 +203,28 @@ The Red Cross indicates the target skeleton points which are generated from the 
 
 
 
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+</p>
 
 ## S-structure
 
 The green cross indicates the target skeleton points which are generated from the custom built algorithm for ‘S’ formation for any given plane. 
 
 
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+</p>
+
 ## Path Planning:
 
 After acquiring both the current position and destination points, the algorithm plans the path for the robots to move in its degree of freedom. This process of path planning happens in two stages,
 Initially, the bot points are allocated to random points in the skeleton and the distance is calculated. This follows no specific format or computation so it’s a quick way but this causes the total distance travelled by the robots to be larger. This practice makes the whole process very time consuming and it wastes a lot of battery power. So, an algorithm is employed to rectify this disadvantage.
+
+
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+</p>
 
 ## Nearest Neighbours Algorithm:
 
@@ -175,16 +239,28 @@ The distance is found for all the robots given and the target point is selected 
 In this picture, the green lines indicate the path traced by the robots for the line formation after applying the nearest neighbouring algorithm.
 
 
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+</p>
+
 The same algorithm is applied for the S-structure formation. The distance is greatly reduced in both the cases. 
 Real time tracking and application of the nearest neighbor algorithm has been shown this image. The blue lines represent the paths that should be traced down by the robot to attain the optimum point for forming the line structure.
 
 ## Corner Harris:
+
+
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+</p>
 
 ## Feeding data to the Robots:
 
 The robot should be fed with the data of distance and angle for each specific for the structure formation. So, to calculate distance and angle the following method is used
 To find the distance, hypotenuse is found to the triangle formed while adjacent is the median for the whole plane. The angle that to be tilted is found by using the formula,
 
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+</p>
 
 α = sin-1(opposite/hypotenuse)
 
@@ -200,6 +276,11 @@ Using the concept of ’Collective intelligence’ reduces the cost and  increas
 In future, size can be extremely reduced and the same algorithm can be implemented irrespective of  their platform. It has vast scopes in various fields such as Medicine, Defence etc.
 
 ## A continuation:
+
+
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+</p>
 
 USING ARUCO MARKERS.
 EASY TO DETERMNINE AND LOCALIZE THE ROBOTS THAN BEFORE. 
