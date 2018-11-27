@@ -71,8 +71,6 @@ solid board
 
 SOLDERING 
 
-<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
-
 ### SolidWorks Software
 
 SolidWorks is a solid modeler, and utilizes a parametric feature-based approach to create models and assemblies. Building a model in SolidWorks usually starts with a 2D sketch and 3D model can be derived later. The sketch consists of geometry such as points, lines, arcs, and spines. Dimensions are added to the sketch to derive the required 3D model.
