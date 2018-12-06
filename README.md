@@ -41,14 +41,14 @@ The greatest difficulty faced in the whole system is to make the size of each ro
 
 ### Battery
 
-<img align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1426.JPG" width="430" height="300">
+<img align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1426.JPG" width="330" height="200">
 
-A  Rechargeable Lithium-Polymer battery cell is used to power the entire robot. It has the technical specifications of 3.7v with 300mAh capacity and 20C discharge rate. This optimum design of battery not only helps in keeping the robotic structure  in less weight and small size but also supplies required power efficiently. A single charge of the battery can run the robot for around 20 minutes of continues usage and 1 hour of idle standby. 
+A  Rechargeable Lithium-Polymer battery cell is used to power the entire robot. It has the technical specifications of 3.7v with 200mAh capacity and 20C discharge rate. This optimum design of battery not only helps in keeping the robotic structure  in less weight and small size but also supplies required power efficiently. A single charge of the battery can run the robot for around 20 minutes of continues usage and 1 hour of idle standby. 
 
 
 ### Coreless DC motor
 
-<img align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1425.JPG" width="430" height="300">
+<img align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1425.JPG" width="330" height="200">
 
 Two coreless DC motors are being employed since it is a two wheeled robot. This two wheeled construction of the robot gives it a 3-degree locomotion i.e. it can move in forward, right and left directions. The motor’s specifications are 3.3v and 0.1A. The motor is specifically selected for its high acceleration and smaller size. It is of size 16*7mm in dimensions. 
 
@@ -56,14 +56,14 @@ Two coreless DC motors are being employed since it is a two wheeled robot. This 
 
 ### ESP8266 Wi-Fi Controller
 
-<img align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1422.JPG" width="430" height="300">
+<img align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1422.JPG" width="330" height="200">
 
 The ESP8266 Wi-Fi Module is a self contained Microcontroller with inbuilt Wi-Fi options. It can establish new networks and also able to connect to already available networks. It has a very compact design with two GPIO pins which makes it the most suitable board for this project. It can be easily programmed by C language Arduino IDE.
 
 
 ### BS170 N-Channel MOSFET
 
-<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="330" height="200">
 
 The BS170 is a logic level MOSFET, which is capable of showing qualities of the higher rating MOSFETs in small signal applications. This property of it used to select it for the switching purpose of the motor using the microcontroller. It has a specification of Vds= 60v and Id= 500 mA. 
 
@@ -71,15 +71,31 @@ solid board
 
 SOLDERING 
 
+## Software level
+python
+numpy
+matplotlib
+opencv
+algorithms
+swarm algorithms
+socket programming -web services
+arduino esp8266 programming
+structural algos
+Clustering
+KNN
+Heirarchical clustering
+
+
 ### SolidWorks Software
 
 SolidWorks is a solid modeler, and utilizes a parametric feature-based approach to create models and assemblies. Building a model in SolidWorks usually starts with a 2D sketch and 3D model can be derived later. The sketch consists of geometry such as points, lines, arcs, and spines. Dimensions are added to the sketch to derive the required 3D model.
 The 3D model based on the spatial requirements which has been done using the SolidWorks software is displayed below,
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled3.png" width="430" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled1.png" width="430" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled2.png" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled3.png" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled1.png" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled2.png" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled4.png" width="330" height="200">
 
 </p>
 
@@ -90,7 +106,7 @@ The 3D model based on the spatial requirements which has been done using the Sol
 
 ### Circuit Design
 
-<img align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+<img align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="330" height="200">
 
 The circuit is designed mainly on the consideration of simplicity and smallest size possible. So, very basic components are only used in the electrical circuit.
 
@@ -105,8 +121,8 @@ The above 3D models has been printed with the help of a 3D printer, the printed 
 
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/8.JPG" width="430" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/8.JPG" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="330" height="200">
 </p>
 
 
@@ -115,9 +131,9 @@ The above 3D models has been printed with the help of a 3D printer, the printed 
 
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1428.JPG" width="430" height="300">
- <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1430.JPG" width="430" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1434.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1428.JPG" width="330" height="200">
+ <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1330.JPG" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1434.JPG" width="330" height="200">
 </p>
 
 
@@ -128,8 +144,8 @@ The above 3D models has been printed with the help of a 3D printer, the printed 
 
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1438.JPG" width="430" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1440.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1438.JPG" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1440.JPG" width="330" height="200">
 
 </p>
 
@@ -139,10 +155,10 @@ The above 3D models has been printed with the help of a 3D printer, the printed 
                          
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1883.JPG" width="430" height="300">
- <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1886.JPG" width="430" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1888.JPG" width="430" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1889.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1883.JPG" width="330" height="200">
+ <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1886.JPG" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1888.JPG" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1889.JPG" width="330" height="200">
 </p>
 
 # WORKING
@@ -153,6 +169,7 @@ The project is tself can be divided to three main parts.
 * Algorithms
 
 ## Robot Position Tracking:
+## Corner Harris:
 
  <p align="center">
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/without.jpg">
@@ -185,7 +202,7 @@ The Red Cross indicates the target skeleton points which are generated from the 
 
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin1.png" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin1.png" width="330" height="200">
 </p>
 
 
@@ -195,7 +212,7 @@ The green cross indicates the target skeleton points which are generated from th
 
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/sform.png" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/sform.png" width="330" height="200">
 </p>
 
 ## Path Planning:
@@ -209,10 +226,10 @@ Initially, the bot points are allocated to random points in the skeleton and the
 The path derived without using nearest neighbour algorithm. By observation, it can be seen that the distance travelled by the robots is much longer. So, applying nearest neighbor algorithm the following paths are obtained which are more optimum to the given set of paths.
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed.png" width="430" height="300">
-  <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed (1).png" width="430" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed (2).png" width="430" height="300">
-  <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/triangle.png" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed.png" width="330" height="200">
+  <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed (1).png" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed (2).png" width="330" height="200">
+  <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/triangle.png" width="330" height="200">
 
 
 </p>
@@ -227,12 +244,12 @@ In this picture, the green lines indicate the path traced by the robots for the 
 
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin2.png" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin2.png" width="330" height="200">
 </p>
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/figure_2.png" width="430" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/figure_21.png" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/figure_2.png" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/figure_21.png" width="330" height="200">
 
 </p>
 
@@ -246,7 +263,7 @@ The robot should be fed with the data of distance and angle for each specific fo
 To find the distance, hypotenuse is found to the triangle formed while adjacent is the median for the whole plane. The angle that to be tilted is found by using the formula,
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/imple.png" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/imple.png" width="330" height="200">
 </p>
 
                                                  α = sin-1(opposite/hypotenuse)
@@ -262,28 +279,17 @@ Firstly, the small size of the client robot helps us to carry the robots conveni
 Using the concept of ’Collective intelligence’ reduces the cost and  increases the expandability of the robots. A particular robot can be replaced in case of damages instead of  replacing the whole.
 In future, size can be extremely reduced and the same algorithm can be implemented irrespective of  their platform. It has vast scopes in various fields such as Medicine, Defence etc.
 
-## UPDATES AFTER 6 MONTHS:
-## Corner Harris:
-
-
 <p align="center">
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/reach_destination.gif">
 </p> 
 
-<p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
-</p>
 
-
-<p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="430" height="300">
-</p>
+## Future Ideas:
 
 USING ARUCO MARKERS.
 EASY TO DETERMNINE AND LOCALIZE THE ROBOTS THAN BEFORE. 
 DONT HAVE TO TAKE CARE OF ANYTHING AT ALL
 
- 
 # REFERENCES
 
 ## BASE PAPER DETAILS
