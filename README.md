@@ -53,12 +53,12 @@ A  Rechargeable Lithium-Polymer battery cell is used to power the entire robot. 
 Two coreless DC motors are being employed since it is a two wheeled robot. This two wheeled construction of the robot gives it a 3-degree locomotion i.e. it can move in forward, right and left directions. The motor’s specifications are 3.3v and 0.1A. The motor is specifically selected for its high acceleration and smaller size. It is of size 16*7mm in dimensions. 
 
 
-
 ### ESP8266 Wi-Fi Controller
 
 <img align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1422.JPG" width="330" height="200">
 
 The ESP8266 Wi-Fi Module is a self contained Microcontroller with inbuilt Wi-Fi options. It can establish new networks and also able to connect to already available networks. It has a very compact design with two GPIO pins which makes it the most suitable board for this project. It can be easily programmed by C language Arduino IDE.
+
 
 
 ### BS170 N-Channel MOSFET
@@ -99,7 +99,6 @@ The 3D model based on the spatial requirements which has been done using the Sol
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled1.png" width="330" height="200">
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled2.png" width="330" height="200">
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled4.png" width="330" height="200">
-
 </p>
 
 
@@ -109,7 +108,7 @@ The 3D model based on the spatial requirements which has been done using the Sol
 
 ### Circuit Design
 
-<img align="center" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/circuit.png" >
+<img align="center" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/circuit.png" width="630" height="400">
 
 The circuit is designed mainly on the consideration of simplicity and smallest size possible. So, very basic components are only used in the electrical circuit.
 
@@ -130,7 +129,6 @@ The above 3D models has been printed with the help of a 3D printer, the printed 
 
 ### Electrical Circuit 
 <p align="center">
-
 
 <p align="left">
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1428.JPG" width="330" height="200">
