@@ -63,7 +63,7 @@ The ESP8266 Wi-Fi Module is a self contained Microcontroller with inbuilt Wi-Fi 
 
 ### BS170 N-Channel MOSFET
 
-<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="330" height="200">
+<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/mosfet.jpg" width="330" height="200">
 
 The BS170 is a logic level MOSFET, which is capable of showing qualities of the higher rating MOSFETs in small signal applications. This property of it used to select it for the switching purpose of the motor using the microcontroller. It has a specification of Vds= 60v and Id= 500 mA. 
 
@@ -85,11 +85,14 @@ Clustering
 KNN
 Heirarchical clustering
 
+## 3D Printing 
 
 ### SolidWorks Software
 
 SolidWorks is a solid modeler, and utilizes a parametric feature-based approach to create models and assemblies. Building a model in SolidWorks usually starts with a 2D sketch and 3D model can be derived later. The sketch consists of geometry such as points, lines, arcs, and spines. Dimensions are added to the sketch to derive the required 3D model.
 The 3D model based on the spatial requirements which has been done using the SolidWorks software is displayed below,
+
+<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/solidworks.png" width="330" height="200">
 
 <p align="left">
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled3.png" width="330" height="200">
@@ -99,14 +102,14 @@ The 3D model based on the spatial requirements which has been done using the Sol
 
 </p>
 
-### 3D Printing Technology
+
 
 3D Printing is done using 3D Printer. The 3D printer used for prototyping is WANHAO Duplicator. The WANHAO Duplicator makes solid, three-dimensional objects out of melted WANHAO PLA (PolyLactic Acid) Filament. 3D model derived from SolidWorks is translated into instructions for the WANHAO Duplicator and sent to the machine via USB cable or SD Card. Then the WANHAO Duplicator heats the WANHAO PLA Filament and squeezes it out through a nozzle to make a solid object layer by layer. This technique is called fused deposition modeling (FDM).
 
 
 ### Circuit Design
 
-<img align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="330" height="200">
+<img align="center" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/circuit.png" >
 
 The circuit is designed mainly on the consideration of simplicity and smallest size possible. So, very basic components are only used in the electrical circuit.
 
@@ -119,15 +122,14 @@ The circuit is designed mainly on the consideration of simplicity and smallest s
 The above 3D models has been printed with the help of a 3D printer, the printed parts are shown below, 
                                                                                                                                       
 
-
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/8.JPG" width="330" height="200">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1383.JPG" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1384.JPG" width="330" height="200">
 </p>
 
 
 
 ### Electrical Circuit 
+<p align="center">
 
 
 <p align="left">
@@ -149,8 +151,14 @@ The above 3D models has been printed with the help of a 3D printer, the printed 
 
 </p>
 
+## Type 2:
+more control
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2409.JPG" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2410.JPG" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2411.JPG" width="330" height="200">
 
-
+</p>
 ## Swarm Group:
                          
 
@@ -169,6 +177,7 @@ The project is tself can be divided to three main parts.
 * Algorithms
 
 ## Robot Position Tracking:
+
 ## Corner Harris:
 
  <p align="center">
@@ -225,46 +234,42 @@ Initially, the bot points are allocated to random points in the skeleton and the
 
 The path derived without using nearest neighbour algorithm. By observation, it can be seen that the distance travelled by the robots is much longer. So, applying nearest neighbor algorithm the following paths are obtained which are more optimum to the given set of paths.
 
-<p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed.png" width="330" height="200">
-  <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed (1).png" width="330" height="200">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed (2).png" width="330" height="200">
-  <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/triangle.png" width="330" height="200">
-
-
-</p>
-
 The distance is found for all the robots given and the target point is selected for a particular robot by selecting the smallest available Euclidean distance that had been found before. The Euclidean distance can be found by the following formula,
- 
+ <p align="center">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed (1).png" width="330" height="200">
+</p>
                                   Euclidean distance = sq root (bot point – target point).
 
 
 
 In this picture, the green lines indicate the path traced by the robots for the line formation after applying the nearest neighbouring algorithm.
 
-
 <p align="left">
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin2.png" width="330" height="200">
 </p>
 
+The same algorithm is applied for the S-structure formation. The distance is greatly reduced in both the cases. 
+
 <p align="left">
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/figure_2.png" width="330" height="200">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/figure_21.png" width="330" height="200">
-
 </p>
 
-The same algorithm is applied for the S-structure formation. The distance is greatly reduced in both the cases. 
+
 Real time tracking and application of the nearest neighbor algorithm has been shown this image. The blue lines represent the paths that should be traced down by the robot to attain the optimum point for forming the line structure.
-
-
-## Feeding data to the Robots:
-
-The robot should be fed with the data of distance and angle for each specific for the structure formation. So, to calculate distance and angle the following method is used
-To find the distance, hypotenuse is found to the triangle formed while adjacent is the median for the whole plane. The angle that to be tilted is found by using the formula,
-
 <p align="left">
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/imple.png" width="330" height="200">
 </p>
+
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed.png" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed (2).png" width="330" height="200">
+
+## Feeding data to the Robots:
+<p align="center">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/triangle.png" width="330" height="200">
+</p>
+The robot should be fed with the data of distance and angle for each specific for the structure formation. So, to calculate distance and angle the following method is used
+To find the distance, hypotenuse is found to the triangle formed while adjacent is the median for the whole plane. The angle that to be tilted is found by using the formula,
+
 
                                                  α = sin-1(opposite/hypotenuse)
 
