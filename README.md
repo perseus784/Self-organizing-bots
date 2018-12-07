@@ -89,10 +89,11 @@ Heirarchical clustering
 
 ### SolidWorks Software
 
+<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/solidworks.png" width="330" height="200">
+
 SolidWorks is a solid modeler, and utilizes a parametric feature-based approach to create models and assemblies. Building a model in SolidWorks usually starts with a 2D sketch and 3D model can be derived later. The sketch consists of geometry such as points, lines, arcs, and spines. Dimensions are added to the sketch to derive the required 3D model.
 The 3D model based on the spatial requirements which has been done using the SolidWorks software is displayed below,
 
-<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/solidworks.png" width="330" height="200">
 
 <p align="left">
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled3.png" width="330" height="200">
@@ -108,7 +109,7 @@ The 3D model based on the spatial requirements which has been done using the Sol
 
 ### Circuit Design
 
-<img align="center" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/circuit.png" width="630" height="400">
+<img align="center" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/circuit.png" width="830" height="500">
 
 The circuit is designed mainly on the consideration of simplicity and smallest size possible. So, very basic components are only used in the electrical circuit.
 
@@ -132,20 +133,20 @@ The above 3D models has been printed with the help of a 3D printer, the printed 
 
 <p align="left">
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1428.JPG" width="330" height="200">
- <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1330.JPG" width="330" height="200">
+ <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1430.JPG" width="330" height="200">
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1434.JPG" width="330" height="200">
 </p>
 
 
 
-## Assembly and Final Product
-
-
+## Final Product and Swarm Group
 
 
 <p align="left">
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1438.JPG" width="330" height="200">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1440.JPG" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1886.JPG" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1883.JPG" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1889.JPG" width="330" height="200">
 
 </p>
 
@@ -179,7 +180,7 @@ The project is tself can be divided to three main parts.
 ## Corner Harris:
 
  <p align="center">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/without.jpg">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/without.png">
 </p>
                           
 Robots are tracked with the help of a python library named openCV. It is highly used in the fields of image processing. Each robot is given a separate color on top of it so, a simple color identification technique is used to find the color tag of the robot. Each color tag represents a unique bot ID from which the Wi-Fi address of the robot can be found.
@@ -204,23 +205,22 @@ The algorithms are designed in such a way that it is adaptive to any given area 
 
 ## Line structure
 
+<p align="right">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin1.png" width="330" height="200">
+</p>
 The blue points in the picture indicate the robots which are placed in a random manner.
 The Red Cross indicates the target skeleton points which are generated from the custom built algorithm for line formation for any given plane.
 
-
-<p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin1.png" width="330" height="200">
-</p>
-
-
 ## S-structure
+
+<p align="right">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/sform.png" width="330" height="200">
+</p>
 
 The green cross indicates the target skeleton points which are generated from the custom built algorithm for ‘S’ formation for any given plane. 
 
 
-<p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/sform.png" width="330" height="200">
-</p>
+
 
 ## Path Planning:
 
@@ -236,27 +236,30 @@ The distance is found for all the robots given and the target point is selected 
  <p align="center">
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed (1).png" width="330" height="200">
 </p>
-                                  Euclidean distance = sq root (bot point – target point).
+                                    
+                                    Euclidean distance = sq root (bot point – target point).
 
 
+
+<p align="right">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin2.png" width="330" height="200">
+</p>
 
 In this picture, the green lines indicate the path traced by the robots for the line formation after applying the nearest neighbouring algorithm.
 
-<p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin2.png" width="330" height="200">
+
+<p align="right">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/figure_2.png" width="330" height="200">
 </p>
 
 The same algorithm is applied for the S-structure formation. The distance is greatly reduced in both the cases. 
 
-<p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/figure_2.png" width="330" height="200">
-</p>
-
-
-Real time tracking and application of the nearest neighbor algorithm has been shown this image. The blue lines represent the paths that should be traced down by the robot to attain the optimum point for forming the line structure.
-<p align="left">
+<p align="right">
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/imple.png" width="330" height="200">
 </p>
+
+Real time tracking and application of the nearest neighbor algorithm has been shown this image. The blue lines represent the paths that should be traced down by the robot to attain the optimum point for forming the line structure.
+
 
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed.png" width="330" height="200">
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed (2).png" width="330" height="200">
