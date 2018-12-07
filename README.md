@@ -89,7 +89,7 @@ Heirarchical clustering
 
 ### SolidWorks Software
 
-<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/solidworks.png" width="330" height="200">
+<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/solidworks.png" width="230" height="100">
 
 SolidWorks is a solid modeler, and utilizes a parametric feature-based approach to create models and assemblies. Building a model in SolidWorks usually starts with a 2D sketch and 3D model can be derived later. The sketch consists of geometry such as points, lines, arcs, and spines. Dimensions are added to the sketch to derive the required 3D model.
 The 3D model based on the spatial requirements which has been done using the SolidWorks software is displayed below,
@@ -204,18 +204,15 @@ The algorithms are designed in such a way that it is adaptive to any given area 
 
 
 ## Line structure
+<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin1.png" width="430" height="300">
 
-<p align="right">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin1.png" width="330" height="200">
-</p>
 The blue points in the picture indicate the robots which are placed in a random manner.
 The Red Cross indicates the target skeleton points which are generated from the custom built algorithm for line formation for any given plane.
 
 ## S-structure
+<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/sform.png" width="430" height="300">
 
-<p align="right">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/sform.png" width="330" height="200">
-</p>
+
 
 The green cross indicates the target skeleton points which are generated from the custom built algorithm for ‘S’ formation for any given plane. 
 
@@ -234,29 +231,21 @@ The path derived without using nearest neighbour algorithm. By observation, it c
 
 The distance is found for all the robots given and the target point is selected for a particular robot by selecting the smallest available Euclidean distance that had been found before. The Euclidean distance can be found by the following formula,
  <p align="center">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed (1).png" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed (1).png" width="230" height="150">
 </p>
                                     
                                     Euclidean distance = sq root (bot point – target point).
 
 
-
-<p align="right">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin2.png" width="330" height="200">
-</p>
+<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin2.png" width="430" height="300">
 
 In this picture, the green lines indicate the path traced by the robots for the line formation after applying the nearest neighbouring algorithm.
 
-
-<p align="right">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/figure_2.png" width="330" height="200">
-</p>
+<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/figure_2.png" width="430" height="300">
 
 The same algorithm is applied for the S-structure formation. The distance is greatly reduced in both the cases. 
 
-<p align="right">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/imple.png" width="330" height="200">
-</p>
+<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/imple.png" width="430" height="300">
 
 Real time tracking and application of the nearest neighbor algorithm has been shown this image. The blue lines represent the paths that should be traced down by the robot to attain the optimum point for forming the line structure.
 
@@ -266,7 +255,7 @@ Real time tracking and application of the nearest neighbor algorithm has been sh
 
 ## Feeding data to the Robots:
 <p align="center">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/triangle.png" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/triangle.png" width="530" height="350">
 </p>
 The robot should be fed with the data of distance and angle for each specific for the structure formation. So, to calculate distance and angle the following method is used
 To find the distance, hypotenuse is found to the triangle formed while adjacent is the median for the whole plane. The angle that to be tilted is found by using the formula,
