@@ -249,10 +249,6 @@ The same algorithm is applied for the S-structure formation. The distance is gre
 
 Real time tracking and application of the nearest neighbor algorithm has been shown this image. The blue lines represent the paths that should be traced down by the robot to attain the optimum point for forming the line structure.
 
-
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed.png" width="330" height="200">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/unnamed (2).png" width="330" height="200">
-
 ## Feeding data to the Robots:
 <p align="center">
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/triangle.png" width="530" height="350">
