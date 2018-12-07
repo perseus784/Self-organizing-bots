@@ -41,21 +41,21 @@ The greatest difficulty faced in the whole system is to make the size of each ro
 
 ### Battery
 
-<img align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1426.JPG" width="330" height="200">
+<img align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1426.JPG" width="230" height="100">
 
 A  Rechargeable Lithium-Polymer battery cell is used to power the entire robot. It has the technical specifications of 3.7v with 200mAh capacity and 20C discharge rate. This optimum design of battery not only helps in keeping the robotic structure  in less weight and small size but also supplies required power efficiently. A single charge of the battery can run the robot for around 20 minutes of continues usage and 1 hour of idle standby. 
 
 
 ### Coreless DC motor
 
-<img align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1425.JPG" width="330" height="200">
+<img align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1425.JPG" width="230" height="100">
 
 Two coreless DC motors are being employed since it is a two wheeled robot. This two wheeled construction of the robot gives it a 3-degree locomotion i.e. it can move in forward, right and left directions. The motor’s specifications are 3.3v and 0.1A. The motor is specifically selected for its high acceleration and smaller size. It is of size 16*7mm in dimensions. 
 
 
 ### ESP8266 Wi-Fi Controller
 
-<img align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1422.JPG" width="330" height="200">
+<img align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1422.JPG" width="230" height="100">
 
 The ESP8266 Wi-Fi Module is a self contained Microcontroller with inbuilt Wi-Fi options. It can establish new networks and also able to connect to already available networks. It has a very compact design with two GPIO pins which makes it the most suitable board for this project. It can be easily programmed by C language Arduino IDE.
 
@@ -63,7 +63,7 @@ The ESP8266 Wi-Fi Module is a self contained Microcontroller with inbuilt Wi-Fi 
 
 ### BS170 N-Channel MOSFET
 
-<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/mosfet.jpg" width="330" height="200">
+<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/mosfet.jpg" width="230" height="100">
 
 The BS170 is a logic level MOSFET, which is capable of showing qualities of the higher rating MOSFETs in small signal applications. This property of it used to select it for the switching purpose of the motor using the microcontroller. It has a specification of Vds= 60v and Id= 500 mA. 
 
