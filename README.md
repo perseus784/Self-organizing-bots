@@ -1,14 +1,12 @@
-link:
-[this guy](https://hackaday.io/project/12211-arduino-glasses-a-hmd-for-multimeter).
-images
-<p align="center">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1442.JPG">
-</p>
 
+# About  
 
-# About
+<img align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1442.JPG" width="360" height="230">
+
 A group of small robots capable of assembling themselves built using ESP8266 wifi module and Python.
 The platform consists of a collection of custom-designed wheeled robots each 41x35 mm in dimensions, a Wi-Fi module, and object tracking using image processing techniques. They are controlled by custom written algorithms and python libraries. The project illustrates the potential of group interface through a set of algorithms implemented with custom designed robots, and discuss general design considerations unique to collective intelligence.
+
+<br> 
 
 # Key Features:
 * 41x35 mm in dimensions.
@@ -68,19 +66,18 @@ The ESP8266 Wi-Fi Module is a self contained Microcontroller with inbuilt Wi-Fi 
 The BS170 is a logic level MOSFET, which is capable of showing qualities of the higher rating MOSFETs in small signal applications. This property of it used to select it for the switching purpose of the motor using the microcontroller. It has a specification of Vds= 60v and Id= 500 mA.  
 <br>
 
-## Software level
-python
-numpy
-matplotlib
-opencv
-algorithms
-swarm algorithms
-socket programming -web services
-arduino esp8266 programming
-structural algos
-Clustering
-KNN
-Heirarchical clustering
+## Software level stuff:
+* Python
+* Matplotlib
+* OpenCV
+* Algorithms
+* Swarm algorithms
+* Socket programming -web services
+* Arduino esp8266 programming
+* Structural algos
+* Clustering
+* KNN
+* Heirarchical clustering
 
 ## 3D Printing 
 
@@ -91,17 +88,14 @@ Heirarchical clustering
 SolidWorks is a solid modeler, and utilizes a parametric feature-based approach to create models and assemblies. Building a model in SolidWorks usually starts with a 2D sketch and 3D model can be derived later. The sketch consists of geometry such as points, lines, arcs, and spines. Dimensions are added to the sketch to derive the required 3D model.
 The 3D model based on the spatial requirements which has been done using the SolidWorks software is displayed below,
 
+3D Printing is done using 3D Printer. The 3D printer used for prototyping is WANHAO Duplicator. The WANHAO Duplicator makes solid, three-dimensional objects out of melted WANHAO PLA (PolyLactic Acid) Filament. 3D model derived from SolidWorks is translated into instructions for the WANHAO Duplicator and sent to the machine via USB cable or SD Card. Then the WANHAO Duplicator heats the WANHAO PLA Filament and squeezes it out through a nozzle to make a solid object layer by layer. This technique is called fused deposition modeling (FDM).
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled3.png" width="430" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled1.png" width="430" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled2.png" width="430" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled4.png" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled3.png" width="450" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled1.png" width="450" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled2.png" width="450" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled4.png" width="450" height="300">
 </p>
-
-
-
-3D Printing is done using 3D Printer. The 3D printer used for prototyping is WANHAO Duplicator. The WANHAO Duplicator makes solid, three-dimensional objects out of melted WANHAO PLA (PolyLactic Acid) Filament. 3D model derived from SolidWorks is translated into instructions for the WANHAO Duplicator and sent to the machine via USB cable or SD Card. Then the WANHAO Duplicator heats the WANHAO PLA Filament and squeezes it out through a nozzle to make a solid object layer by layer. This technique is called fused deposition modeling (FDM).
 
 
 ### Circuit Design
@@ -119,8 +113,8 @@ The circuit is designed mainly on the consideration of simplicity and smallest s
 3D printed parts ready for assembly:
                                                                                                                                       
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1384.JPG" width="430" height="300">
- <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1419.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1384.JPG" width="450" height="300">
+ <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1419.JPG" width="450" height="300">
 
 </p>
 
@@ -129,9 +123,9 @@ The circuit is designed mainly on the consideration of simplicity and smallest s
 ### Electrical Circuit 
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1428.JPG" width="250" height="200">
- <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1430.JPG" width="250" height="200">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1434.JPG" width="250" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1428.JPG" width="300" height="200">
+ <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1430.JPG" width="300" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1434.JPG" width="300" height="200">
 </p>
 
 
@@ -140,16 +134,16 @@ The circuit is designed mainly on the consideration of simplicity and smallest s
 
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1438.JPG" width="430" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1886.JPG" width="430" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1883.JPG" width="430" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1889.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1438.JPG" width="450" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1886.JPG" width="450" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1883.JPG" width="450" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1889.JPG" width="450" height="300">
 
 </p>
 
 # WORKING
 
-## Architecture:
+**Architecture:**
  <p align="center">
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Software_Architecture.png">
 </p>
@@ -182,7 +176,7 @@ Even though robots are localized, it is a difficult problem to find the orientat
 
 The algorithms are designed in such a way that it is adaptive to any given area and form the same structure. When the user gives any surface as input the program calculates the skeletal structures and minimal number of robots for that structure. We have implemented two skeletal structures as pre defined default structure, if needed in future it is very trivial to add more and more skeletal structures to the program.
 
-<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin1.png" width="430" height="300">  
+<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin1.png" width="450" height="300">  
 
 <br> 
 
@@ -198,7 +192,7 @@ The Red Cross indicates the target skeleton points which are generated from the 
 
 
 
-<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/sform.png" width="430" height="300"> 
+<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/sform.png" width="450" height="300"> 
 
 <br> 
 <br> 
@@ -233,7 +227,7 @@ The distance is found for all the robots given and the target point is selected 
 </p>
                                     
                                     Euclidean distance = sq root (bot point – target point).
-<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin2.png" width="430" height="300">
+<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin2.png" width="450" height="300">
 <br> 
 <br>
 In this picture, the green lines indicate the path traced by the robots for the line formation after applying the nearest neighbouring algorithm.
@@ -248,7 +242,7 @@ In this picture, the green lines indicate the path traced by the robots for the 
 <br>
 
 
-<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/figure_2.png" width="430" height="300">
+<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/figure_2.png" width="450" height="300">
 <br> 
 <br>
 The same algorithm is applied for the S-structure formation. The distance is greatly reduced in both the cases.
@@ -267,7 +261,7 @@ The same algorithm is applied for the S-structure formation. The distance is gre
 
 
 
-<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/imple.png" width="430" height="300">
+<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/imple.png" width="450" height="300">
 <br>
 <br>
 Real time tracking and application of the nearest neighbor algorithm has been shown this image. The blue lines represent the paths that should be traced down by the robot to attain the optimum point for forming the line structure.
@@ -287,8 +281,7 @@ Real time tracking and application of the nearest neighbor algorithm has been sh
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/triangle.png" width="530" height="350">
 </p>
 The robot should be fed with the data of distance and angle for each specific for the structure formation. So, to calculate distance and angle the following method is used
-To find the distance, hypotenuse is found to the triangle formed while adjacent is the median for the whole plane. The angle that to be tilted is found by using the formula,\
-\
+To find the distance, hypotenuse is found to the triangle formed while adjacent is the median for the whole plane. The angle that to be tilted is found by using the formula,
 
 
                                                  α = sin-1(opposite/hypotenuse)
@@ -298,8 +291,8 @@ To find the distance, hypotenuse is found to the triangle formed while adjacent 
 (Distance, α) is appended to a list which contains the same for all other robots. So, the ESP Arduino obtains this distance and angle and facilitates the robot to move in this α direction to that distance. 
 
 <p align="center">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2433.JPG" width="430" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/triangle.png" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2433.JPG" width="450" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2435.JPG" width="450" height="300">
 
 </p> 
 
@@ -323,9 +316,9 @@ Eventhough it made the bot slightly bigger than the previous version, it gives u
 
 **New Model** 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2409.JPG" width="250" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2410.JPG" width="250" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2411.JPG" width="250" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2409.JPG" width="300" height="400">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2410.JPG" width="300" height="400">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2411.JPG" width="300" height="400">
 </p>
                                                                 
                                                                  
@@ -333,8 +326,8 @@ The updated 3D files can be found [here](https://github.com/perseus784/Self-orga
 
 **New Motors**
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2385.JPG" width="330" height="200">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2386.JPG" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2385.JPG" width="450" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2386.JPG" width="450" height="300">
 </p> 
 
 The remaining circuitary and other components are all the same. 
