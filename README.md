@@ -206,8 +206,6 @@ The communication between the robots and the master is via a secure Wi-Fi local 
 
 The algorithms are designed in such a way that it is adaptive to any given area and form the same structure. When the user gives any surface as input the program calculates the skeletal structures and minimal number of robots for that structure. We have implemented two skeletal structures as pre defined default structure, if needed in future it is very trivial to add more and more skeletal structures to the program.
 
-
-
 ## Line structure
 <img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin1.png" width="430" height="300">
 
@@ -215,10 +213,26 @@ The blue points in the picture indicate the robots which are placed in a random 
 The Red Cross indicates the target skeleton points which are generated from the custom built algorithm for line formation for any given plane.
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ## S-structure
 <img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/sform.png" width="430" height="300">
 
 The green cross indicates the target skeleton points which are generated from the custom built algorithm for ‘S’ formation for any given plane. 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 
 
@@ -242,28 +256,44 @@ The distance is found for all the robots given and the target point is selected 
                                     
                                     Euclidean distance = sq root (bot point – target point).
 
+<br>
+<br>
 
 <img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin2.png" width="430" height="300">
 
 In this picture, the green lines indicate the path traced by the robots for the line formation after applying the nearest neighbouring algorithm.
-` `  
-` `  
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/figure_2.png" width="430" height="300">
 
-The same algorithm is applied for the S-structure formation. The distance is greatly reduced in both the cases.\
-\
-\
-\
-\
-\ 
-\ 
-\ 
+The same algorithm is applied for the S-structure formation. The distance is greatly reduced in both the cases.
 
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/imple.png" width="430" height="300">
 
 Real time tracking and application of the nearest neighbor algorithm has been shown this image. The blue lines represent the paths that should be traced down by the robot to attain the optimum point for forming the line structure.
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 
 ## Feeding data to the Robots:
@@ -272,11 +302,13 @@ Real time tracking and application of the nearest neighbor algorithm has been sh
 </p>
 The robot should be fed with the data of distance and angle for each specific for the structure formation. So, to calculate distance and angle the following method is used
 To find the distance, hypotenuse is found to the triangle formed while adjacent is the median for the whole plane. The angle that to be tilted is found by using the formula,
+<br>
 
 
                                                  α = sin-1(opposite/hypotenuse)
 
-(Distance, α) is appended to a list which contains the same for all other robots. So, the ESP Arduino obtains this distance and angle and facilitates the robot to move in this α direction to that distance.
+(Distance, α) is appended to a list which contains the same for all other robots. So, the ESP Arduino obtains this distance and angle and facilitates the robot to move in this α direction to that distance. 
+
 
 # CONCLUSION
 
