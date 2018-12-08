@@ -207,7 +207,10 @@ The communication between the robots and the master is via a secure Wi-Fi local 
 
 The algorithms are designed in such a way that it is adaptive to any given area and form the same structure. When the user gives any surface as input the program calculates the skeletal structures and minimal number of robots for that structure. We have implemented two skeletal structures as pre defined default structure, if needed in future it is very trivial to add more and more skeletal structures to the program.
 
-<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin1.png" width="430" height="300">
+<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin1.png" width="430" height="300">  
+
+<br> 
+
 **Line structure** 
 
 The blue points in the picture indicate the robots which are placed in a random manner.
@@ -217,11 +220,13 @@ The Red Cross indicates the target skeleton points which are generated from the 
 <br>
 <br>
 <br>
-<br>
-<br>
 
 
-<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/sform.png" width="430" height="300">
+
+<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/sform.png" width="430" height="300"> 
+
+<br> 
+
 **S-structure** 
 
 The green cross indicates the target skeleton points which are generated from the custom built algorithm for ‘S’ formation for any given plane. 
@@ -229,16 +234,6 @@ The green cross indicates the target skeleton points which are generated from th
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-
 
 
 ## Path Planning:
