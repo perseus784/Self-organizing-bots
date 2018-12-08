@@ -41,31 +41,41 @@ The greatest difficulty faced in the whole system is to make the size of each ro
 
 ### Battery
 
-<img align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1426.JPG" width="230" height="100">
-
+<img align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1426.JPG" width="200" height="140">
+ 
+ 
 A  Rechargeable Lithium-Polymer battery cell is used to power the entire robot. It has the technical specifications of 3.7v with 200mAh capacity and 20C discharge rate. This optimum design of battery not only helps in keeping the robotic structure  in less weight and small size but also supplies required power efficiently. A single charge of the battery can run the robot for around 20 minutes of continues usage and 1 hour of idle standby. 
+` `  
+` `  
 
 
 ### Coreless DC motor
 
-<img align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1425.JPG" width="230" height="100">
-
-Two coreless DC motors are being employed since it is a two wheeled robot. This two wheeled construction of the robot gives it a 3-degree locomotion i.e. it can move in forward, right and left directions. The motor’s specifications are 3.3v and 0.1A. The motor is specifically selected for its high acceleration and smaller size. It is of size 16*7mm in dimensions. 
+<img align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1425.JPG" width="200" height="140">
+ 
+ 
+Two coreless DC motors are being employed since it is a two wheeled robot. This two wheeled construction of the robot gives it a 3-degree locomotion i.e. it can move in forward, right and left directions. The motor’s specifications are 3.3v and 0.1A. The motor is specifically selected for its high acceleration and smaller size. It is of size 16*7mm in dimensions.   
+` `  
+` `  
 
 
 ### ESP8266 Wi-Fi Controller
 
-<img align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1422.JPG" width="230" height="100">
+<img align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1422.JPG" width="200" height="140">
 
-The ESP8266 Wi-Fi Module is a self contained Microcontroller with inbuilt Wi-Fi options. It can establish new networks and also able to connect to already available networks. It has a very compact design with two GPIO pins which makes it the most suitable board for this project. It can be easily programmed by C language Arduino IDE.
+The ESP8266 Wi-Fi Module is a self contained Microcontroller with inbuilt Wi-Fi options. It can establish new networks and also able to connect to already available networks. It has a very compact design with two GPIO pins which makes it the most suitable board for this project. It can be easily programmed by C language Arduino IDE.  
+` `  
+` `  
 
 
 
 ### BS170 N-Channel MOSFET
 
-<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/mosfet.jpg" width="230" height="100">
+<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/mosfet.jpg" width="200" height="140">
 
-The BS170 is a logic level MOSFET, which is capable of showing qualities of the higher rating MOSFETs in small signal applications. This property of it used to select it for the switching purpose of the motor using the microcontroller. It has a specification of Vds= 60v and Id= 500 mA. 
+The BS170 is a logic level MOSFET, which is capable of showing qualities of the higher rating MOSFETs in small signal applications. This property of it used to select it for the switching purpose of the motor using the microcontroller. It has a specification of Vds= 60v and Id= 500 mA.  
+` `  
+` `  
 
 solid board
 
@@ -208,13 +218,15 @@ The algorithms are designed in such a way that it is adaptive to any given area 
 
 The blue points in the picture indicate the robots which are placed in a random manner.
 The Red Cross indicates the target skeleton points which are generated from the custom built algorithm for line formation for any given plane.
+` `  
+` `
 
 ## S-structure
 <img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/sform.png" width="430" height="300">
 
-
-
 The green cross indicates the target skeleton points which are generated from the custom built algorithm for ‘S’ formation for any given plane. 
+` `  
+` `  
 
 
 
@@ -240,14 +252,24 @@ The distance is found for all the robots given and the target point is selected 
 <img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin2.png" width="430" height="300">
 
 In this picture, the green lines indicate the path traced by the robots for the line formation after applying the nearest neighbouring algorithm.
+` `  
+` `  
 
 <img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/figure_2.png" width="430" height="300">
 
-The same algorithm is applied for the S-structure formation. The distance is greatly reduced in both the cases. 
+The same algorithm is applied for the S-structure formation. The distance is greatly reduced in both the cases. \
+\
+\
+\
+` `
+
+` `  
 
 <img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/imple.png" width="430" height="300">
 
 Real time tracking and application of the nearest neighbor algorithm has been shown this image. The blue lines represent the paths that should be traced down by the robot to attain the optimum point for forming the line structure.
+` `
+` `
 
 ## Feeding data to the Robots:
 <p align="center">
