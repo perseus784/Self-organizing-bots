@@ -267,8 +267,7 @@ In this picture, the green lines indicate the path traced by the robots for the 
 <br>
 <br>
 <br>
-<br>
-<br>
+
 
 <img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/figure_2.png" width="430" height="300">
 
@@ -284,6 +283,9 @@ The same algorithm is applied for the S-structure formation. The distance is gre
 <br>
 <br>
 <br>
+<br>
+
+
 
 <img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/imple.png" width="430" height="300">
 
