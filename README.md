@@ -91,10 +91,10 @@ The 3D model based on the spatial requirements which has been done using the Sol
 3D Printing is done using 3D Printer. The 3D printer used for prototyping is WANHAO Duplicator. The WANHAO Duplicator makes solid, three-dimensional objects out of melted WANHAO PLA (PolyLactic Acid) Filament. 3D model derived from SolidWorks is translated into instructions for the WANHAO Duplicator and sent to the machine via USB cable or SD Card. Then the WANHAO Duplicator heats the WANHAO PLA Filament and squeezes it out through a nozzle to make a solid object layer by layer. This technique is called fused deposition modeling (FDM).
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled3.png" width="450" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled1.png" width="450" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled2.png" width="450" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled4.png" width="450" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled3.png" width="440" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled1.png" width="440" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled2.png" width="440" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled4.png" width="440" height="300">
 </p>
 
 
@@ -113,8 +113,8 @@ The circuit is designed mainly on the consideration of simplicity and smallest s
 3D printed parts ready for assembly:
                                                                                                                                       
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1384.JPG" width="450" height="300">
- <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1419.JPG" width="450" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1384.JPG" width="440" height="300">
+ <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1419.JPG" width="440" height="300">
 
 </p>
 
@@ -134,10 +134,10 @@ The circuit is designed mainly on the consideration of simplicity and smallest s
 
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1438.JPG" width="450" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1886.JPG" width="450" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1883.JPG" width="450" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1889.JPG" width="450" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1438.JPG" width="440" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1886.JPG" width="440" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1883.JPG" width="440" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1889.JPG" width="440" height="300">
 
 </p>
 
@@ -155,7 +155,7 @@ The communication between the robots and the master is via a secure Wi-Fi local 
 ## Robot Position Tracking:
 
 <p align="center">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/without.png"width="730" height="450">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/without.png"width="730" height="440">
 </p>
 
 Robots are tracked with the help of a python library named openCV. It is highly used in the fields of image processing. Each robot is given a separate color on top of it so, a simple color identification technique is used to find the color tag of the robot. Each color tag represents a unique bot ID from which the Wi-Fi address of the robot can be found.
@@ -176,7 +176,7 @@ Even though robots are localized, it is a difficult problem to find the orientat
 
 The algorithms are designed in such a way that it is adaptive to any given area and form the same structure. When the user gives any surface as input the program calculates the skeletal structures and minimal number of robots for that structure. We have implemented two skeletal structures as pre defined default structure, if needed in future it is very trivial to add more and more skeletal structures to the program.
 
-<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin1.png" width="450" height="300">  
+<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin1.png" width="440" height="300">  
 
 <br> 
 
@@ -192,7 +192,7 @@ The Red Cross indicates the target skeleton points which are generated from the 
 
 
 
-<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/sform.png" width="450" height="300"> 
+<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/sform.png" width="440" height="300"> 
 
 <br> 
 <br> 
@@ -227,7 +227,7 @@ The distance is found for all the robots given and the target point is selected 
 </p>
                                     
                                     Euclidean distance = sq root (bot point – target point).
-<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin2.png" width="450" height="300">
+<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin2.png" width="440" height="300">
 <br> 
 <br>
 In this picture, the green lines indicate the path traced by the robots for the line formation after applying the nearest neighbouring algorithm.
@@ -242,7 +242,7 @@ In this picture, the green lines indicate the path traced by the robots for the 
 <br>
 
 
-<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/figure_2.png" width="450" height="300">
+<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/figure_2.png" width="440" height="300">
 <br> 
 <br>
 The same algorithm is applied for the S-structure formation. The distance is greatly reduced in both the cases.
@@ -261,7 +261,7 @@ The same algorithm is applied for the S-structure formation. The distance is gre
 
 
 
-<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/imple.png" width="450" height="300">
+<img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/imple.png" width="440" height="300">
 <br>
 <br>
 Real time tracking and application of the nearest neighbor algorithm has been shown this image. The blue lines represent the paths that should be traced down by the robot to attain the optimum point for forming the line structure.
@@ -291,8 +291,8 @@ To find the distance, hypotenuse is found to the triangle formed while adjacent 
 (Distance, α) is appended to a list which contains the same for all other robots. So, the ESP Arduino obtains this distance and angle and facilitates the robot to move in this α direction to that distance. 
 
 <p align="center">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2433.JPG" width="450" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2435.JPG" width="450" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2433.JPG" width="440" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2435.JPG" width="440" height="300">
 
 </p> 
 
@@ -326,8 +326,8 @@ The updated 3D files can be found [here](https://github.com/perseus784/Self-orga
 
 **New Motors**
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2385.JPG" width="450" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2386.JPG" width="450" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2385.JPG" width="440" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2386.JPG" width="440" height="300">
 </p> 
 
 The remaining circuitary and other components are all the same. 
