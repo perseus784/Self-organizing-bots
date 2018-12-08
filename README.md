@@ -68,11 +68,6 @@ The ESP8266 Wi-Fi Module is a self contained Microcontroller with inbuilt Wi-Fi 
 The BS170 is a logic level MOSFET, which is capable of showing qualities of the higher rating MOSFETs in small signal applications. This property of it used to select it for the switching purpose of the motor using the microcontroller. It has a specification of Vds= 60v and Id= 500 mA.  
 <br>
 
-
-solid board
-
-SOLDERING 
-
 ## Software level
 python
 numpy
@@ -121,22 +116,22 @@ The circuit is designed mainly on the consideration of simplicity and smallest s
 
 ### Hardware Implementation
 
-The above 3D models has been printed with the help of a 3D printer, the printed parts are shown below, 
+3D printed parts ready for assembly:
                                                                                                                                       
-
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1384.JPG" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1384.JPG" width="430" height="300">
+ <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1419.JPG" width="430" height="300">
+
 </p>
 
 
 
 ### Electrical Circuit 
-<p align="center">
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1428.JPG" width="330" height="200">
- <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1430.JPG" width="330" height="200">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1434.JPG" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1428.JPG" width="250" height="200">
+ <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1430.JPG" width="250" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1434.JPG" width="250" height="200">
 </p>
 
 
@@ -145,10 +140,10 @@ The above 3D models has been printed with the help of a 3D printer, the printed 
 
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1438.JPG" width="330" height="200">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1886.JPG" width="330" height="200">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1883.JPG" width="330" height="200">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1889.JPG" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1438.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1886.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1883.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1889.JPG" width="430" height="300">
 
 </p>
 
@@ -166,7 +161,7 @@ The communication between the robots and the master is via a secure Wi-Fi local 
 ## Robot Position Tracking:
 
 <p align="center">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/without.png"width="630" height="400">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/without.png"width="730" height="450">
 </p>
 
 Robots are tracked with the help of a python library named openCV. It is highly used in the fields of image processing. Each robot is given a separate color on top of it so, a simple color identification technique is used to find the color tag of the robot. Each color tag represents a unique bot ID from which the Wi-Fi address of the robot can be found.
@@ -177,6 +172,11 @@ Even though robots are localized, it is a difficult problem to find the orientat
 * first we have to find the hypotenuse of the triangle, it can be done using opencv coutour finding, Coner-Harris methos and Heirarchical clustering. It is clearly explained here -> [Finding Hypotenuse](https://github.com/perseus784/Shape-Finder).
 * Once we find the hypotenuse, we can easily know to which angle it is deviated from the bisector of the display. Then we can orient the robot to that angle and adjust to align perpendicular to the bisector.
 
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2382.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2388.JPG" width="430" height="300">
+
+</p>
 
 ## Skeleton Structures
 
@@ -287,16 +287,21 @@ Real time tracking and application of the nearest neighbor algorithm has been sh
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/triangle.png" width="530" height="350">
 </p>
 The robot should be fed with the data of distance and angle for each specific for the structure formation. So, to calculate distance and angle the following method is used
-To find the distance, hypotenuse is found to the triangle formed while adjacent is the median for the whole plane. The angle that to be tilted is found by using the formula, 
-
-<br>
+To find the distance, hypotenuse is found to the triangle formed while adjacent is the median for the whole plane. The angle that to be tilted is found by using the formula,\
+\
 
 
                                                  α = sin-1(opposite/hypotenuse)
 
- 
+  
+  
 (Distance, α) is appended to a list which contains the same for all other robots. So, the ESP Arduino obtains this distance and angle and facilitates the robot to move in this α direction to that distance. 
 
+<p align="center">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2433.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/triangle.png" width="430" height="300">
+
+</p> 
 
 # CONCLUSION
 
@@ -316,21 +321,23 @@ The previous version of it is hard to control because of the coreless motor.
 So, it is replaced with Microgearded motors and also the strcuture of the 3D models were also changed to adapt to the new motor size.
 Eventhough it made the bot slightly bigger than the previous version, it gives us more control and stability in structure.
 
-
+**New Model** 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2409.JPG" width="330" height="200">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2410.JPG" width="330" height="200">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2411.JPG" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2409.JPG" width="250" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2410.JPG" width="250" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2411.JPG" width="250" height="300">
 </p>
-                                                                 New model 
+                                                                
                                                                  
 The updated 3D files can be found [here](https://github.com/perseus784/Self-organizing-bots/tree/master/3D%20model/Version2(Micro%20Geared))
 
-These are new motors used
+**New Motors**
 <p align="left">
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2385.JPG" width="330" height="200">
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2386.JPG" width="330" height="200">
 </p> 
+
+The remaining circuitary and other components are all the same. 
 
 ## Future Ideas: 
 
