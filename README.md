@@ -255,10 +255,9 @@ The distance is found for all the robots given and the target point is selected 
 </p>
                                     
                                     Euclidean distance = sq root (bot point – target point).
-
-<br>
 <br>
 <img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/lin2.png" width="430" height="300">
+
 In this picture, the green lines indicate the path traced by the robots for the line formation after applying the nearest neighbouring algorithm.
 <br>
 <br>
@@ -269,6 +268,7 @@ In this picture, the green lines indicate the path traced by the robots for the 
 <br>
 <br>
 <img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/figure_2.png" width="430" height="300">
+
 The same algorithm is applied for the S-structure formation. The distance is greatly reduced in both the cases.
 <br>
 <br>
@@ -279,6 +279,7 @@ The same algorithm is applied for the S-structure formation. The distance is gre
 <br>
 <br>
 <img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/imple.png" width="430" height="300">
+
 Real time tracking and application of the nearest neighbor algorithm has been shown this image. The blue lines represent the paths that should be traced down by the robot to attain the optimum point for forming the line structure.
 <br>
 <br>
