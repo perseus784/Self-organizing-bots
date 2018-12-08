@@ -1,1 +1,6 @@
-
+.idea/*
+Media/*
+3D model/*
+*.jpg
+*.JPG
+*.png
