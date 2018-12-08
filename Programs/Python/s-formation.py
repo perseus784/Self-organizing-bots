@@ -29,12 +29,12 @@ def rectangular_wave(space=s_lim):
     for j in line_skeleton[center_bot+1:]:
         j[1]=(j[1]+space)
     wave_skeleton = line_skeleton
-    [plot.scatter(k[0], k[1],s=70,c='r') for k in wave_skeleton]
+    #[plot.scatter(k[0], k[1],s=70,c='r') for k in wave_skeleton]
     for l in wave_skeleton[:center_bot]:
         l[0]=(l[0]+spacing)
     for n in wave_skeleton[center_bot+1:]:
         n[0]=(n[0]-spacing)
-    [plot.scatter(o[0], o[1],c='c',s=100,marker='x') for o in wave_skeleton]
+    #[plot.scatter(o[0], o[1],c='c',s=100,marker='x') for o in wave_skeleton]
     print wave_skeleton
     print center_bot,wave_skeleton[center_bot],median
     y_high=median+space
