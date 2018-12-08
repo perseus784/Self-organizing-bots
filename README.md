@@ -226,10 +226,15 @@ The Red Cross indicates the target skeleton points which are generated from the 
 <img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/sform.png" width="430" height="300"> 
 
 <br> 
+<br> 
+
 
 **S-structure** 
 
 The green cross indicates the target skeleton points which are generated from the custom built algorithm for ‘S’ formation for any given plane. 
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
