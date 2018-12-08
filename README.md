@@ -17,6 +17,7 @@ The platform consists of a collection of custom-designed wheeled robots each 41x
 * 3D files provided.
 * Contour tracking
 * Path planning
+* Simple circuit design
 
 # Update:
 * Aruco Markers
