@@ -19,10 +19,6 @@ The platform consists of a collection of custom-designed wheeled robots each 41x
 * Path planning
 * Simple circuit design
 
-# Update:
-* Aruco Markers
-* High torque motors
-
 ## EXISTING SYSTEM:  
 **Zooids:** The project is executed by students of Stanford University. The system introduced swarm user interfaces; It is an open-source open-hardware platform for developing tabletop swarm interfaces. It consists of a collection of custom-designed wheeled micro robots each 2.6 cm in diameter, a radio base-station, a high speed DLP structured light projector for optical tracking, and a software framework for application development and control.
 
@@ -102,10 +98,10 @@ The 3D model based on the spatial requirements which has been done using the Sol
 
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled3.png" width="330" height="200">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled1.png" width="330" height="200">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled2.png" width="330" height="200">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled4.png" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled3.png" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled1.png" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled2.png" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled4.png" width="430" height="300">
 </p>
 
 
@@ -115,7 +111,7 @@ The 3D model based on the spatial requirements which has been done using the Sol
 
 ### Circuit Design
 
-<img align="center" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/circuit.png" width="830" height="500">
+<img align="center" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/circuit.png" width="900" height="500">
 
 The circuit is designed mainly on the consideration of simplicity and smallest size possible. So, very basic components are only used in the electrical circuit.
 
@@ -156,52 +152,31 @@ The above 3D models has been printed with the help of a 3D printer, the printed 
 
 </p>
 
-## Type 2:
-more control
-<p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2409.JPG" width="330" height="200">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2410.JPG" width="330" height="200">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2411.JPG" width="330" height="200">
-
-</p>
-## Swarm Group:
-                         
-
-<p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1883.JPG" width="330" height="200">
- <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1886.JPG" width="330" height="200">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1888.JPG" width="330" height="200">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1889.JPG" width="330" height="200">
-</p>
-
 # WORKING
-
-The project is tself can be divided to three main parts.
-* Tracking
-* Communication
-* Algorithms
-
-## Robot Position Tracking:
-
-## Corner Harris:
-
- <p align="center">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/without.png">
-</p>
-                          
-Robots are tracked with the help of a python library named openCV. It is highly used in the fields of image processing. Each robot is given a separate color on top of it so, a simple color identification technique is used to find the color tag of the robot. Each color tag represents a unique bot ID from which the Wi-Fi address of the robot can be found.
-The image contains a color detection sample for 5 different colors simultaneously and also using image processing the centers of the each color contours are also found. This gives a great way of robot tracking even in very ruff conditions.
 
 ## Architecture:
  <p align="center">
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Software_Architecture.png">
 </p>
 
-
-
 The communication between the robots and the master is via a secure Wi-Fi local network. This local network paves way for two way communication between the master and the slaves. The master is usually a PC with a custom built program running on it. This master program governs the position, movement and arrangement of the robots.
 
  A video camera is used to keep track the position of the robots using color detection methods and it’s a continuously running loop once the program has started until the goal is achieved.
+
+## Robot Position Tracking:
+
+<p align="center">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/without.png"width="630" height="400">
+</p>
+
+Robots are tracked with the help of a python library named openCV. It is highly used in the fields of image processing. Each robot is given a separate color on top of it so, a simple color identification technique is used to find the color tag of the robot. Each color tag represents a unique bot ID from which the Wi-Fi address of the robot can be found.
+The image contains a color detection sample for 5 different colors simultaneously and also using image processing the centers of the each color contours are also found. This gives a great way of robot tracking even in very ruff conditions.
+
+Even though robots are localized, it is a difficult problem to find the orientation of the robots. To find orientation of the robots the following method is used.
+* A right angled triangle is sticked on the top of the robot than a previously shown circle identifier.
+* first we have to find the hypotenuse of the triangle, it can be done using opencv coutour finding, Coner-Harris methos and Heirarchical clustering. It is clearly explained here -> [Finding Hypotenuse](https://github.com/perseus784/Shape-Finder).
+* Once we find the hypotenuse, we can easily know to which angle it is deviated from the bisector of the display. Then we can orient the robot to that angle and adjust to align perpendicular to the bisector.
+
 
 ## Skeleton Structures
 
@@ -248,7 +223,7 @@ After acquiring both the current position and destination points, the algorithm 
 Initially, the bot points are allocated to random points in the skeleton and the distance is calculated. This follows no specific format or computation so it’s a quick way but this causes the total distance travelled by the robots to be larger. This practice makes the whole process very time consuming and it wastes a lot of battery power. So, an algorithm is employed to rectify this disadvantage.
 
 
-## Nearest Neighbours Algorithm:
+## Finding the nearest point:
 
 The path derived without using nearest neighbour algorithm. By observation, it can be seen that the distance travelled by the robots is much longer. So, applying nearest neighbor algorithm the following paths are obtained which are more optimum to the given set of paths.
 
@@ -312,12 +287,14 @@ Real time tracking and application of the nearest neighbor algorithm has been sh
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/triangle.png" width="530" height="350">
 </p>
 The robot should be fed with the data of distance and angle for each specific for the structure formation. So, to calculate distance and angle the following method is used
-To find the distance, hypotenuse is found to the triangle formed while adjacent is the median for the whole plane. The angle that to be tilted is found by using the formula,
+To find the distance, hypotenuse is found to the triangle formed while adjacent is the median for the whole plane. The angle that to be tilted is found by using the formula, 
+
 <br>
 
 
                                                  α = sin-1(opposite/hypotenuse)
 
+ 
 (Distance, α) is appended to a list which contains the same for all other robots. So, the ESP Arduino obtains this distance and angle and facilitates the robot to move in this α direction to that distance. 
 
 
@@ -334,8 +311,28 @@ In future, size can be extremely reduced and the same algorithm can be implement
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/reach_destination.gif">
 </p> 
 
+## Updated Bot:
+The previous version of it is hard to control because of the coreless motor.
+So, it is replaced with Microgearded motors and also the strcuture of the 3D models were also changed to adapt to the new motor size.
+Eventhough it made the bot slightly bigger than the previous version, it gives us more control and stability in structure.
 
-## Future Ideas:
+
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2409.JPG" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2410.JPG" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2411.JPG" width="330" height="200">
+</p>
+                                                                 New model 
+                                                                 
+The updated 3D files can be found [here](https://github.com/perseus784/Self-organizing-bots/tree/master/3D%20model/Version2(Micro%20Geared))
+
+These are new motors used
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2385.JPG" width="330" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2386.JPG" width="330" height="200">
+</p> 
+
+## Future Ideas: 
 
 USING ARUCO MARKERS.
 EASY TO DETERMNINE AND LOCALIZE THE ROBOTS THAN BEFORE. 
