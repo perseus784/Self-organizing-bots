@@ -110,7 +110,7 @@ The circuit is designed mainly on the consideration of simplicity and smallest s
 
 ### Hardware Implementation
 
-3D printed parts ready for assembly:
+**3D printed parts ready for assembly:**
                                                                                                                                       
 <p align="left">
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1384.JPG" width="440" height="300">
@@ -120,17 +120,17 @@ The circuit is designed mainly on the consideration of simplicity and smallest s
 
 
 
-### Electrical Circuit 
+**Electrical Circuit**
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1428.JPG" width="300" height="200">
- <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1430.JPG" width="300" height="200">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1434.JPG" width="300" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1428.JPG" width="293" height="200">
+ <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1430.JPG" width="293" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1434.JPG" width="293" height="200">
 </p>
 
 
 
-## Final Product and Swarm Group
+**Final Product and Swarm Group**
 
 
 <p align="left">
@@ -152,7 +152,7 @@ The communication between the robots and the master is via a secure Wi-Fi local 
 
  A video camera is used to keep track the position of the robots using color detection methods and it’s a continuously running loop once the program has started until the goal is achieved.
 
-## Robot Position Tracking:
+**Robot Position Tracking:**
 
 <p align="center">
 <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/without.png"width="730" height="440">
@@ -167,8 +167,8 @@ Even though robots are localized, it is a difficult problem to find the orientat
 * Once we find the hypotenuse, we can easily know to which angle it is deviated from the bisector of the display. Then we can orient the robot to that angle and adjust to align perpendicular to the bisector.
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2382.JPG" width="430" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2388.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2382.JPG" width="440" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2388.JPG" width="440" height="300">
 
 </p>
 
@@ -263,7 +263,6 @@ The same algorithm is applied for the S-structure formation. The distance is gre
 
 <img  align="right" src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/imple.png" width="440" height="300">
 <br>
-<br>
 Real time tracking and application of the nearest neighbor algorithm has been shown this image. The blue lines represent the paths that should be traced down by the robot to attain the optimum point for forming the line structure.
 <br>
 <br>
@@ -316,9 +315,9 @@ Eventhough it made the bot slightly bigger than the previous version, it gives u
 
 **New Model** 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2409.JPG" width="300" height="400">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2410.JPG" width="300" height="400">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2411.JPG" width="300" height="400">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2409.JPG" width="293" height="400">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2410.JPG" width="293" height="400">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2411.JPG" width="293" height="400">
 </p>
                                                                 
                                                                  
