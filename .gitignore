@@ -1,6 +1,6 @@
-.idea/*
-Media/*
-3D model/*
+.idea\*
+Media\*
+3D model\*
 *.jpg
 *.JPG
 *.png
