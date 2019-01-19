@@ -6,6 +6,9 @@
 A group of small robots capable of assembling themselves built using ESP8266 wifi module and Python.
 The platform consists of a collection of custom-designed wheeled robots each 41x35 mm in dimensions, a Wi-Fi module, and object tracking using image processing techniques. They are controlled by custom written algorithms and python libraries. The project illustrates the potential of group interface through a set of algorithms implemented with custom designed robots, and discuss general design considerations unique to collective intelligence.
 
+## Design Consideration:
+ All the parts, modelling, circuits were mainly based on the making the robot as small as possible with the technology that is available in the vicinity. It was constrained by cost, time and availability of the hardware in the geography. Most of the struggle and research went into choosing and making the parts as simple and effective as possible. The finalized design was a product of numerous iteration of protypes in software and hardware level. Making the circuitary small at the same time not too heavy for the motor was a challenge and even that went through a lot of prototyping and expermentation. 
+ 
 <br> 
 
 # Key Features:
