@@ -94,10 +94,10 @@ The 3D model based on the spatial requirements which has been done using the Sol
 3D Printing is done using 3D Printer. The 3D printer used for prototyping is WANHAO Duplicator. The WANHAO Duplicator makes solid, three-dimensional objects out of melted WANHAO PLA (PolyLactic Acid) Filament. 3D model derived from SolidWorks is translated into instructions for the WANHAO Duplicator and sent to the machine via USB cable or SD Card. Then the WANHAO Duplicator heats the WANHAO PLA Filament and squeezes it out through a nozzle to make a solid object layer by layer. This technique is called fused deposition modeling (FDM).
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled3.png" width="440" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled1.png" width="440" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled2.png" width="440" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled4.png" width="440" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled3.png" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled1.png" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled2.png" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/Untitled4.png" width="430" height="300">
 </p>
 
 
@@ -116,8 +116,8 @@ The circuit is designed mainly on the consideration of simplicity and smallest s
 **3D printed parts ready for assembly:**
                                                                                                                                       
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1384.JPG" width="440" height="300">
- <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1419.JPG" width="440" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1384.JPG" width="430" height="300">
+ <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1419.JPG" width="430" height="300">
 
 </p>
 
@@ -126,9 +126,9 @@ The circuit is designed mainly on the consideration of simplicity and smallest s
 **Electrical Circuit**
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1428.JPG" width="293" height="200">
- <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1430.JPG" width="293" height="200">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1434.JPG" width="293" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1428.JPG" width="260" height="200">
+ <img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1430.JPG" width="260" height="200">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1434.JPG" width="260" height="200">
 </p>
 
 
@@ -137,10 +137,10 @@ The circuit is designed mainly on the consideration of simplicity and smallest s
 
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1438.JPG" width="440" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1886.JPG" width="440" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1883.JPG" width="440" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1889.JPG" width="440" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1438.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1886.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1883.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_1889.JPG" width="430" height="300">
 
 </p>
 
@@ -170,8 +170,8 @@ Even though robots are localized, it is a difficult problem to find the orientat
 * Once we find the hypotenuse, we can easily know to which angle it is deviated from the bisector of the display. Then we can orient the robot to that angle and adjust to align perpendicular to the bisector.
 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2382.JPG" width="440" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2388.JPG" width="440" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2382.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2388.JPG" width="430" height="300">
 
 </p>
 
@@ -292,9 +292,9 @@ To find the distance, hypotenuse is found to the triangle formed while adjacent 
   
 (Distance, α) is appended to a list which contains the same for all other robots. So, the ESP Arduino obtains this distance and angle and facilitates the robot to move in this α direction to that distance. 
 
-<p align="center">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2433.JPG" width="440" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2435.JPG" width="440" height="300">
+<p align="left">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2433.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2435.JPG" width="430" height="300">
 
 </p> 
 
@@ -318,8 +318,8 @@ Eventhough it made the bot slightly bigger than the previous version, it gives u
 
 **New Model** 
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2409.JPG" width="440" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2411.JPG" width="440" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2409.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2411.JPG" width="430" height="300">
 </p>
                                                                 
                                                                  
@@ -327,8 +327,8 @@ The updated 3D files can be found [here](https://github.com/perseus784/Self-orga
 
 **New Motors**
 <p align="left">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2385.JPG" width="440" height="300">
-<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2386.JPG" width="440" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2385.JPG" width="430" height="300">
+<img src="https://github.com/perseus784/Self-organizing-bots/blob/master/Media/IMG_2386.JPG" width="430" height="300">
 </p> 
 
 The remaining circuitary and other components are all the same. 
